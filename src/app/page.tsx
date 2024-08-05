@@ -1,14 +1,10 @@
+import { TopNavPage } from "../../components/top-nav";
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <>
-      <header>
-        <nav>
-          <p>Logo</p>
-          <p>Login</p>
-        </nav>
-      </header>
+      <TopNavPage />
       <main className={styles.main}>
         <h1>Welcome to ReadQuest</h1>
         <p>This is a description for ReadQuest</p>
